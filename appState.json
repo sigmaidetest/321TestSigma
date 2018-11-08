@@ -1,0 +1,71 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "4ac533be-2199-4959-a335-384e0c01ab12": {
+        "id": "4ac533be-2199-4959-a335-384e0c01ab12",
+        "parent": null,
+        "name": "321TestSigma",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "edeaa74b-4b9b-456b-a771-cba5ed2da026"
+        ],
+        "isRemovable": false,
+        "filePath": "321TestSigma"
+      },
+      "edeaa74b-4b9b-456b-a771-cba5ed2da026": {
+        "id": "edeaa74b-4b9b-456b-a771-cba5ed2da026",
+        "parent": "4ac533be-2199-4959-a335-384e0c01ab12",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "321TestSigma/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "timeout": 60,
+          "memory": 128
+        }
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "4ac533be-2199-4959-a335-384e0c01ab12",
+    "openFiles": [
+      "edeaa74b-4b9b-456b-a771-cba5ed2da026"
+    ],
+    "currentFileId": "edeaa74b-4b9b-456b-a771-cba5ed2da026",
+    "resources": {},
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    },
+    "lambdaId": "edeaa74b-4b9b-456b-a771-cba5ed2da026"
+  },
+  "PROJECT_META": {
+    "projectName": "321TestSigma",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "lastSave": 1541671862055
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "321TestSigma",
+      "url": "https://github.com/sigmaidetest/321TestSigma"
+    }
+  }
+}
